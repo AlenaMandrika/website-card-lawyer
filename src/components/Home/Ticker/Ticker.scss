@@ -1,0 +1,41 @@
+.text-ticker {
+  padding: 50px;
+  width: 100%;
+  h4 {
+    margin: 0;
+    color:  #b24a3b
+  }
+}
+.text-ticker h4 {
+  text-transform: uppercase;
+  animation: text 12s infinite linear;
+  padding-left: 100%;
+  white-space: nowrap;
+}
+@keyframes text {
+  0%{
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(-180%, 0);
+  }
+}
+@media (max-width: 768px) {
+  //.text-ticker {
+  //  padding: 50px;
+  //  width: 51%;
+  //  h4 {
+  //    margin: 0;
+  //    color:  #b24a3b
+  //  }
+  //}
+  //.text-ticker h4 {
+  //  padding-left: 50%;
+  //}
+}
+//@media (max-width: 414px) {
+//  .text-ticker h4 {
+//    padding-left: 55%;
+//    font-size: 15px;
+//  }
+//}

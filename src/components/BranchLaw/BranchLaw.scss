@@ -1,0 +1,14 @@
+//.branchLaw-block {
+//  background-color: #36363a;
+//}
+.branchLaw-title {
+  padding: 30px 0;
+  background-color: #36363a;
+  color: #ffffff;
+}
+
+@media (max-width: 805px) {
+  .branchLaw-title {
+    padding: 170px 0 0 0;
+  }
+}
