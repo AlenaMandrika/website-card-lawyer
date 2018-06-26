@@ -1,11 +1,11 @@
 .about {
   display: flex;
   flex-direction: row;
-  min-height: 600px;
+  min-height: 560px;
   height: 100%;
 }
 .wrap-about {
-  height: 600px;
+  height: 560px;
   width: 50%;
 }
 .block-img {
@@ -31,10 +31,10 @@ div.img {
 }
 .block-info {
   width: 50%;
-  min-height: 600px;
+  min-height: 560px;
   height: 100%;
   background-color: #f1f1f1;
-  padding: 80px 50px;
+  padding: 60px 50px;
   .title-about {
     margin: 0 auto;
   }
@@ -74,16 +74,12 @@ div.img {
   .about {
     display: flex;
     flex-direction: column;
-    //min-height: 600px;
-    //height: auto;
   }
 }
 @media (max-width: 767px) {
   .about {
     display: flex;
     flex-direction: column;
-    //min-height: 600px;
-    //height: auto;
   }
 }
 

@@ -1,19 +1,19 @@
 import React from 'react'
 import './Footer.css'
-// import { NavLink} from 'react-router-dom'
 
 const Footer = () => (
   <footer className='section-footer'>
-    <div className='container'>
+    <div>
       <div className='footer-block'>
-        <div>
-          Copyright 2018
+        <div className='line-bottom'>
+          <h4>ГОДИНИ РОБОТИ ОФІСУ</h4>
+          <hr />
         </div>
-        <div>
-            ;khkjhjgchg
+        <div className='text-time'>
+          <p>Понеділок-П'ятниця: 09-20 & Субота: 09-18</p>
         </div>
-        <div>
-              jhbhgvgcf
+        <div className='footer-text'>
+          <p>Copyright | Адвокатське бюро Світлани Заруби | 2018</p>
         </div>
       </div>
     </div>

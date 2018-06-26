@@ -7,10 +7,6 @@ const iconStyles = {
   color: 'white',
   fontSize: 45
 };
-// import icon1 from '../../../assets/images/icon4.png'
-// import icon2 from '../../../assets/images/icon5.png'
-// import icon3 from '../../../assets/images/icon7.png'
-
 
 const Works = () => (
   <section className='section-works'>

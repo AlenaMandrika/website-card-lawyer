@@ -1,14 +1,78 @@
-//.branchLaw-block {
-//  background-color: #36363a;
-//}
 .branchLaw-title {
   padding: 30px 0;
-  background-color: #36363a;
-  color: #ffffff;
+  background-color: #0c0c1e;
+  color: #757575;
 }
-
-@media (max-width: 805px) {
-  .branchLaw-title {
-    padding: 170px 0 0 0;
+.card-list-branchLaw {
+  white-space: normal;
+}
+.block-branchLaw {
+  padding-bottom: 45px;
+  .card-wrap {
+    .card-list-branchLaw {
+      .card-branchLaw {
+        margin: 45px 6px 6px 6px;
+        max-width: 358px;
+        position: relative;
+        .card-body-branchLaw {
+          position: absolute;
+          display: flex;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: #ffffff;
+          .btn-branchLaw {
+            background-color: transparent;
+            color: #f1f1f1;
+            padding: 0 3px;
+            text-decoration: none;
+          }
+        }
+      }
+      .card-branchLaw:hover .btn-branchLaw {
+        background-color: #b24a3b;;
+        color: #ffffff;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+.card-header-branchLaw {
+  height: auto;
+  max-width: 358px;
+  img {
+    height: 240px;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .card-header-branchLaw {
+    max-width: 356px;
+  }
+  .block-branchLaw {
+    padding: 160px 0 15px 0;
+  }
+  .block-branchLaw .card-wrap .card-list-branchLaw .card-branchLaw {
+    max-width: 356px;
+    margin: 15px 6px 6px 6px;
+  }
+}
+@media (max-width: 414px) {
+  .card-list-branchLaw {
+    margin: -50px 0 0 0;
+  }
+  .block-branchLaw .card-wrap .card-list-branchLaw .card-branchLaw {
+    margin: 15px 0 6px 0;
+  }
+  .card-header-branchLaw {
+    max-width: 358px;
+    img {
+      height: 200px;
+      width: 100%;
+    }
   }
 }

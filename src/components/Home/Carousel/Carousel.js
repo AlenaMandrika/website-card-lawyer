@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import { NavLink } from 'react-router-dom'
 import './Carousel.css'
 
 import ggg from '../../../assets/images/ggg.jpg'
@@ -14,24 +15,26 @@ class MyCarousel extends Component {
         name : ggg,
         legend: 'Юридичні консультації без вихідних',
         title: 'Адвокатське бюро Заруби Світлани',
-        // text: 'Попередня консультація — безкоштовна! Завжди дам цінну пораду!',
         buttonText: 'Більше',
-        alt: 'туман'
+        alt: ''
       },
       {
         name : ggg,
-        legend: 'лрморпсмрпасрпа',
-        title: 'HELLO',
+        legend: 'Попередня консультація — безкоштовна!',
+        title: 'Завжди дамо цінну пораду',
+        alt: ''
       },
       {
         name : ggg,
-        legend: 'лорпорпморпмо',
-        title: 'HELLO',
+        legend: 'Довіряйте вирішення Ваших проблем саме Нам!',
+        title: '"Справедливий світ, в якому цінується повага до людської гідності"',
+        alt: ''
       },
       {
         name : hhh,
-        legend: 'орпапарпа',
-        title: 'HELLO',
+        legend: '',
+        title: '',
+        alt: ''
       }
     ];
 
@@ -45,10 +48,12 @@ class MyCarousel extends Component {
           return (
             <div className='item' key={index}>
               <img className='img-item' src={photo.name} alt={photo.alt}/>
-              <p className="legend">{photo.legend}</p>
-              <h2 className="title-item">{photo.title}</h2>
-              <p className="title-text">{photo.text}</p>
-              <a href='#' className="btn-link">{photo.buttonText}</a>
+              <div className='block-text-carousel'>
+                <p className="legend">{photo.legend}</p>
+                <h2 className="title-item">{photo.title}</h2>
+                <p className="title-text">{photo.text}</p>
+                <NavLink to='/about' className="btn-link">{photo.buttonText}</NavLink>
+              </div>
             </div>
           )
         }) }

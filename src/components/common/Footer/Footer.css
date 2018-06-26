@@ -1,5 +1,24 @@
 footer {
   background-color: #0c0c1e; }
+  footer p {
+    color: #757575; }
+  footer .footer-block {
+    padding: 50px 15px 0 15px; }
+    footer .footer-block .text-time p {
+      margin-bottom: 45px; }
+    footer .footer-block .line-bottom h4 {
+      color: #757575; }
+    footer .footer-block .footer-text {
+      border-top: 1px solid #555;
+      padding: 5px 0;
+      letter-spacing: .5px;
+      font-weight: 300; }
+    footer .footer-block .footer-text p {
+      margin-top: 16px; }
 
-.footer-block {
-  padding: 50px 0; }
+.line-bottom hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #e39da7, #a5abaa, rgba(0, 0, 0, 0));
+  max-width: 500px;
+  margin: 20px auto; }

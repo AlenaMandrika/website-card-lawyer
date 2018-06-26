@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
 import Header from '../common/Header/Header'
-
 import MyCarousel from './Carousel/Carousel'
 import Servises from './Services/Services'
 import About from './About/About'
 import Ticker from './Ticker/Ticker'
 import Works from './Works/Works'
 import Contacts from './Contacts/Contacts'
-// import Footer from '../common/Footer/Footer'
+import Attorney from './Attorney/Attorney'
+import Footer from '../common/Footer/Footer'
 
 class Home extends Component {
   render () {
@@ -20,8 +20,9 @@ class Home extends Component {
           <About />
           <Ticker/>
           <Works/>
+          <Attorney/>
           <Contacts />
-          {/*<Footer />*/}
+          <Footer />
       </div>
     )
   }

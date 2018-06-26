@@ -1,10 +1,9 @@
 import React from 'react'
 import './Contacts.css'
-import FontIcon from 'material-ui/FontIcon';
-import MyMapComponent from './Maps/Maps'
 
-// import Header from '../../common/Header/Header'
-// import Footer from '../../common/Footer/Footer'
+import FontIcon from 'material-ui/FontIcon';
+
+import MyMapComponent from './Maps/Maps'
 
 const iconStyles = {
   top: 6,

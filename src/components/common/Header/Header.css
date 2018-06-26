@@ -142,7 +142,9 @@ a {
   div.bm-burger-button {
     display: inline-block; }
   .header-top-burger {
-    position: relative; } }
+    position: relative; }
+  .header-bottom {
+    opacity: 0.9; } }
 
 @media (max-width: 550px) {
   .header-top-block {

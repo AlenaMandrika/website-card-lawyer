@@ -69,7 +69,7 @@
   }
 }
 .app-title-contact {
-  padding: 60px 0;
+  padding: 50px 0;
 }
 @media (max-width: 1024px) {
   .block-section-contact .block-info-contact .contact-info .wrap {
@@ -77,6 +77,9 @@
   }
 }
 @media (max-width: 790px) {
+  .app-title-contact {
+    padding: 180px 0 21px 0;
+  }
   .block-section-contact {
     flex-direction: column;
     .block-info-contact {
@@ -99,8 +102,11 @@
     width: 100%;
   }
 }
-@media (max-width: 530px) {
+@media (max-width: 550px) {
   .block-section-contact .block-info-contact .contact-info .wrap {
     flex-direction: column;
+  }
+  .app-title-contact {
+    padding: 130px 0 21px 0;
   }
 }

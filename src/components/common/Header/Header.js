@@ -100,7 +100,7 @@ class Header extends Component {
                 >ПРО МЕНЕ</NavLink>
                 <NavLink
                   onClick={() => this.closeMenu()}
-                  to='/contacts'
+                  to='/contact'
                   className='nav-btn nav-link'
                 >КОНТАКТИ</NavLink>
               </div>
@@ -129,7 +129,7 @@ class Header extends Component {
                   >ПРО МЕНЕ</NavLink>
                   <NavLink
                     onClick={() => this.closeMenu()}
-                    to='/contacts'
+                    to='/contact'
                     className='nav-btn nav-link'
                   >КОНТАКТИ</NavLink>
                   <div align='center' className='header-top-burger'>

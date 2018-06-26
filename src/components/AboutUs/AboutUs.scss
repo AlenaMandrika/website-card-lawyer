@@ -19,11 +19,9 @@
   width: 100%;
   height: 100%;
 }
-//.block-img > div {
-//  background-position: center;
-//  background-size: cover;
-//  flex-grow: 1;
-//}
+.branchLaw-title h2 {
+  margin: 0;
+}
 div.img {
   background-image: url(../../assets/images/ggg.jpg);
   background-position: center;
@@ -80,12 +78,12 @@ div.img {
     margin: 10px 0;
   }
   div ul {
-    li.item {
+    li.item-list {
       margin: 0 0 10px 0;
     }
   }
 }
-.item {
+.item-list {
   display: flex;
   flex-direction: row;
   div {
@@ -94,7 +92,34 @@ div.img {
     font-size: 17px;
   }
 }
-@media (max-width: 768px) {
+.block-benefits {
+  color: #000000;
+  padding: 50px 0 30px 0;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  .title-benefits {
+    color: #000000;
+  }
+}
+.card-header-benefits {
+  padding: 45px 0 20px 0;
+  span.icon-benefits {
+    font-size: 30px;
+  }
+}
+.text-benefits {
+  margin-bottom: 2.5rem;
+}
+.block-benefits {
+  .card-wrap {
+    .card-list-benefits {
+      .card-benefits {
+        margin: 6px 6px;
+      }
+    }
+  }
+}
+@media (max-width: 769px) {
   .aboutUs-block {
     display: flex;
     flex-direction: column;
@@ -106,12 +131,21 @@ div.img {
   .branchLaw-title {
     display: none;
   }
+  .text-benefits {
+    margin-bottom: 2.5rem;
+  }
+  .block-benefits .card-wrap .card-list-benefits .card-benefits {
+    margin: 6px 0;
+  }
 }
 @media (max-width: 550px) {
   .aboutUs-block {
     .wrap-aboutUs-info {
       padding: 110px 0 0 0;
     }
+  }
+  .text-benefits {
+    margin-bottom: 5.5rem;
   }
 }
 @media (max-width: 375px) {
@@ -136,12 +170,6 @@ div.img {
         margin: 10px 0;
       }
     }
-  }
-  .wrap-aboutUs-info {
-    padding: 120px 0 0 0;
-    //div.info-aboutUs {
-    //  margin: 10px 0;
-    //}
   }
 }
 
