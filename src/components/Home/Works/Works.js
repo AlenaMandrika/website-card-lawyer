@@ -32,7 +32,7 @@ const Works = () => (
                 <div className='step-text'>
                   <FontIcon className="material-icons icon-works" style={iconStyles}>account_balance</FontIcon>
                   <h5 className='title-info-text'>СПРАВЕДЛИВЕ РІШЕННЯ</h5>
-                  <p>З усіх можливих способів обирає оптимальний, для позитивного вирішення справи</p>
+                  <p>З усіх можливих способів обирає оптимальний для позитивного вирішення справи</p>
                 </div>
               </div>
             </div>

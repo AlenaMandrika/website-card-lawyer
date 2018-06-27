@@ -205,7 +205,7 @@
   top: 28%;
   color: #ffffff;
   padding: 10px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 500;
   opacity: 0.5;
   -webkit-transition: opacity 0.35s ease-in-out;
@@ -219,7 +219,7 @@
   top: 39%;
   color: #ffffff;
   padding: 10px;
-  font-size: 70px;
+  font-size: 36px;
   font-weight: 600;
   opacity: 0.5; }
 
@@ -240,11 +240,11 @@
 
 .carousel .slide .btn-link {
   position: absolute;
-  top: 65%;
+  top: 58%;
   color: #ffffff;
   background-color: #000000;
   padding: 0 10px;
-  font-size: 30px;
+  font-size: 24px;
   border-radius: 5px;
   border: 1px solid #000000;
   display: inline-block;
@@ -308,45 +308,40 @@
 .item {
   max-height: 605px;
   height: 100%; }
-  .item .block-text-carousel {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
 
-@media (max-width: 1157px) {
-  .carousel .slide .title-item {
-    font-size: 46px; } }
+.item .block-text-carousel {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 @media (max-width: 768px) {
   .carousel .slider.animated {
     height: 100vh; }
-    .carousel .slider.animated .slide {
-      height: 100%; }
-      .carousel .slider.animated .slide div img {
-        height: 100vh; }
+  .carousel .slider.animated .slide {
+    height: 100%; }
+  .carousel .slider.animated .slide div img {
+    height: 100vh; }
   .carousel .slide .legend {
     font-size: 30px;
     top: 37%; }
   .carousel .slide .title-item {
-    font-size: 46px;
     top: 46%; }
   .carousel .slide .btn-link {
     top: 62%; } }
 
 @media (max-width: 415px) {
   .carousel .slide .legend {
-    font-size: 22px;
+    font-size: 20px;
     top: 35%; }
   .carousel .slide .title-item {
-    font-size: 28px; }
+    font-size: 26px; }
   .carousel .slide .btn-link {
-    top: 60%;
     font-size: 20px; } }
 
 @media (max-width: 361px) {
@@ -356,5 +351,15 @@
   .carousel .slide .title-item {
     font-size: 24px; }
   .carousel .slide .btn-link {
-    top: 65%;
+    top: 64%;
+    font-size: 16px; } }
+
+@media (max-width: 321px) {
+  .carousel .slide .legend {
+    font-size: 16px;
+    top: 33%; }
+  .carousel .slide .title-item {
+    font-size: 20px; }
+  .carousel .slide .btn-link {
+    top: 64%;
     font-size: 16px; } }

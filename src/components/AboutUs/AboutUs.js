@@ -98,15 +98,9 @@ class AboutUs extends Component {
     super(props)
     this.state = {
       url: props.match.url,
-      cards: {}
+      cards: CardsBenefits
     }
   }
-  componentWillMount () {
-    this.setState({
-      cards: CardsBenefits
-    })
-  }
-
   render () {
     return (
       <div>
@@ -168,10 +162,9 @@ class AboutUs extends Component {
                 <h3 className='title text-benefits'>ПЕРЕВАГИ В НАШІЙ СПІВПРАЦІ</h3>
               </div>
               <div className='app-card-list card-list-benefits'>
-                {
-                  Object.keys(this.state.cards).map(key =>
-                    <CardAdvantage key={key.id} index={key.id} details={this.state.cards[key]} />)
-                }
+                {this.state.cards.map((card, index) =>
+                  <CardAdvantage key={index} {...card} />
+                )}
               </div>
             </div>
           </div>
@@ -182,4 +175,4 @@ class AboutUs extends Component {
   }
 }
 
-export default AboutUs;
+export default AboutUs

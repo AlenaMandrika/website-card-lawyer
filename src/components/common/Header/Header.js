@@ -13,8 +13,8 @@ import logo from '../../../assets/images/logo.png'
 const iconStyles = {
   top: 6,
   marginRight: 8,
-  color: '#36363a',
-};
+  color: '#36363a'
+}
 
 class Header extends Component {
   constructor (props) {

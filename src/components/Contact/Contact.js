@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
+import './Contact.css'
 
 import Header from '../common/Header/Header'
 import Contacts from '../Home/Contacts/Contacts'
@@ -11,11 +12,12 @@ let Contact = () => {
       <div className='branchLaw-title'>
         <h2>КОНТАКТИ</h2>
       </div>
-      <Contacts />
+      <div className='titleBlock'>
+        <Contacts />
+      </div>
       <Footer />
     </div>
   )
 }
 
 export default Contact
-

@@ -1,7 +1,8 @@
 .logo {
   width: 100%; }
-  .logo img {
-    max-height: 40px; }
+
+.logo img {
+  max-height: 40px; }
 
 .nav-pills .nav-link.active {
   background-color: brown;

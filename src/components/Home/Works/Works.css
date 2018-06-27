@@ -27,25 +27,30 @@ div.img-works {
 
 .wrap-works-content {
   padding: 50px 0; }
-  .wrap-works-content .block-info-works {
-    color: #ffffff; }
-    .wrap-works-content .block-info-works .title-works::after {
-      background: #ffffff;
-      content: "";
-      display: block;
-      height: 2px;
-      width: 70px;
-      margin: 20px auto 20px auto; }
-  .wrap-works-content .block-steps {
-    color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; }
-    .wrap-works-content .block-steps .step-text {
-      padding: 0 10px; }
-    .wrap-works-content .block-steps .icon-works, .wrap-works-content .block-steps .title-info-text {
-      margin-bottom: 20px; }
+
+.wrap-works-content .block-info-works {
+  color: #ffffff; }
+
+.wrap-works-content .block-info-works .title-works::after {
+  background: #ffffff;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 70px;
+  margin: 20px auto 20px auto; }
+
+.wrap-works-content .block-steps {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.wrap-works-content .block-steps .step-text {
+  padding: 0 10px; }
+
+.wrap-works-content .block-steps .icon-works, .wrap-works-content .block-steps .title-info-text {
+  margin-bottom: 20px; }
 
 .icon-works, .title-info-text {
   margin-bottom: 20px; }

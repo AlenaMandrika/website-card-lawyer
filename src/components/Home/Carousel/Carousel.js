@@ -8,7 +8,7 @@ import hhh from '../../../assets/images/hhh.jpg'
 
 class MyCarousel extends Component {
   constructor(props) {
-    super(props);
+    super(props)
 
     this.photos = [
       {
@@ -22,12 +22,14 @@ class MyCarousel extends Component {
         name : ggg,
         legend: 'Попередня консультація — безкоштовна!',
         title: 'Завжди дамо цінну пораду',
+        buttonText: 'Більше',
         alt: ''
       },
       {
         name : ggg,
         legend: 'Довіряйте вирішення Ваших проблем саме Нам!',
         title: '"Справедливий світ, в якому цінується повага до людської гідності"',
+        buttonText: 'Більше',
         alt: ''
       },
       {
@@ -42,8 +44,8 @@ class MyCarousel extends Component {
   }
   renderHeader() {
     return (
-      <Carousel showThumbs={false} showStatus={false} transitionTime={2000}>
-        {this.photos.map(function(photo, index) {
+      <Carousel autoPlay showThumbs={false} showStatus={false} transitionTime={2000}>
+        {this.photos.map(function (photo, index) {
           console.log(photo)
           return (
             <div className='item' key={index}>

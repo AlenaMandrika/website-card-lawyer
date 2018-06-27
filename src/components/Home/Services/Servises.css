@@ -15,9 +15,10 @@
   width: 100%;
   margin: 120px 0 0 0;
   position: relative; }
-  @media (min-width: 768px) {
-    .app-title {
-      margin: 120px 0 50px 0; } }
+
+@media (min-width: 768px) {
+  .app-title {
+    margin: 120px 0 50px 0; } }
 
 .app-title-content {
   position: relative;
@@ -26,10 +27,11 @@
   width: 100%;
   text-align: center;
   transform: translate(-50%, -50%); }
-  @media (min-width: 768px) {
-    .app-title-content {
-      width: auto;
-      position: absolute; } }
+
+@media (min-width: 768px) {
+  .app-title-content {
+    width: auto;
+    position: absolute; } }
 
 .title::after {
   background: #b24a3b;
@@ -44,39 +46,50 @@
   width: 100%;
   white-space: normal;
   margin: -70px 0 0 0; }
+
+.app-card-list .card {
+  margin: 20px 0; }
+
+.app-card-list .card .card-header {
+  padding: 0; }
+
+.app-card-list .card > .card-header > img {
+  width: 100%;
+  height: 205px; }
+
+.app-card-list::-webkit-scrollbar {
+  display: none; }
+
+@media (min-width: 768px) {
+  .app-card-list {
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-top: 0; }
   .app-card-list .card {
-    margin: 20px 0; }
-    .app-card-list .card .card-header {
-      padding: 0; }
-  .app-card-list .card > .card-header > img {
-    width: 100%;
-    height: 205px; }
-  .app-card-list::-webkit-scrollbar {
-    display: none; }
-  @media (min-width: 768px) {
-    .app-card-list {
-      overflow-x: scroll;
-      white-space: nowrap;
-      margin-top: 0; }
-      .app-card-list .card {
-        margin: 60px 6px; } }
+    margin: 60px 6px; } }
+
+.app-card-list .card {
+  display: inline-block;
+  max-width: 365px;
+  width: 100%;
+  transition: .75s; }
+
+.app-card-list .card .card-body {
+  white-space: normal; }
+
+.app-card-list .card .card-body .body-title:hover {
+  color: #b24a3b; }
+
+@media (min-width: 768px) {
   .app-card-list .card {
-    display: inline-block;
-    max-width: 365px;
-    width: 100%;
-    transition: .75s; }
-    .app-card-list .card .card-body {
-      white-space: normal; }
-      .app-card-list .card .card-body .body-title:hover {
-        color: #b24a3b; }
-    @media (min-width: 768px) {
-      .app-card-list .card {
-        width: 365px; } }
-  .app-card-list .card:hover {
-    box-shadow: 0 0 20px 0 #b24a3b;
-    cursor: pointer; }
-  .app-card-list .card:hover .button-primary {
-    transform: translate(10px, 0); }
+    width: 365px; } }
+
+.app-card-list .card:hover {
+  box-shadow: 0 0 20px 0 #b24a3b;
+  cursor: pointer; }
+
+.app-card-list .card:hover .button-primary {
+  transform: translate(10px, 0); }
 
 .button-primary {
   border: none;
