@@ -1,18 +1,18 @@
-import React, { Component } from 'react'
-import { withScriptjs, withGoogleMap, GoogleMap, Marker, InfoWindow, } from "react-google-maps"
-import { compose, withStateHandlers  } from 'recompose'
+import React from 'react'
+import { withScriptjs, withGoogleMap, GoogleMap, Marker, InfoWindow } from 'react-google-maps'
+import { compose, withStateHandlers } from 'recompose'
 
-import FontIcon from 'material-ui/FontIcon';
+import FontIcon from 'material-ui/FontIcon'
 const iconStyles = {
-  color: '#b24a3b',
-};
+  color: '#b24a3b'
+}
 
 const MyMapComponent = compose(
   withStateHandlers(() => ({
-    isOpen: false,
+    isOpen: false
   }), {
     onToggleOpen: ({ isOpen }) => () => ({
-      isOpen: !isOpen,
+      isOpen: !isOpen
     })
   }),
   withScriptjs,
@@ -28,7 +28,7 @@ const MyMapComponent = compose(
     >
       {props.isOpen && <InfoWindow onCloseClick={props.onToggleOpen}>
         <div>
-          <FontIcon className="material-icons" style={iconStyles}>place</FontIcon>
+          <FontIcon className='material-icons' style={iconStyles}>place</FontIcon>
           <h6>Адвокатське бюро Заруби Світлани</h6>
           <p style={{marginBottom: 0}}>місто Черкаси</p>
           <p style={{marginBottom: 0}}>бул. Шевченка 242/1, оф.108</p>

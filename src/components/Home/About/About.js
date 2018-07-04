@@ -5,7 +5,6 @@ import icon1 from '../../../assets/images/icon4.png'
 import icon2 from '../../../assets/images/icon5.png'
 import icon3 from '../../../assets/images/icon7.png'
 
-
 const About = () => (
   <section className='about'>
     <div className='wrap-about'>
@@ -15,14 +14,14 @@ const About = () => (
       </div>
     </div>
     <div className='block-info'>
-      <div className="app-title title-about">
+      <div className='app-title title-about'>
         <div>
           <h2 className='title'>АДВОКАТСЬКЕ БЮРО</h2>
         </div>
       </div>
       <div className='block-content'>
         <div className='about-icon'>
-          <img src={icon1} alt='icon'/>
+          <img src={icon1} alt='icon' />
         </div>
         <div className='text-content'>
           <h5>НАША ІСТОРІЯ</h5>
@@ -31,7 +30,7 @@ const About = () => (
       </div>
       <div className='block-content'>
         <div className='about-icon'>
-          <img src={icon2} alt='icon'/>
+          <img src={icon2} alt='icon' />
         </div>
         <div className='text-content'>
           <h5>НАША МІСІЯ</h5>
@@ -40,7 +39,7 @@ const About = () => (
       </div>
       <div className='block-content'>
         <div className='about-icon'>
-          <img src={icon3} alt='icon'/>
+          <img src={icon3} alt='icon' />
         </div>
         <div className='text-content'>
           <h5>НАШЕ БАЧЕННЯ</h5>

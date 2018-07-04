@@ -12,7 +12,7 @@ import CardAdvantage from './CardAboutUs/CardAdvantage'
 
 import { CardsBenefits } from '../../constants/benefitData'
 
-import libra from '../../assets/images/flip-wooden.jpg'
+import libra from '../../assets/images/flip-wooden.png'
 
 const iconStyles = {
   color: '#b24a3b'

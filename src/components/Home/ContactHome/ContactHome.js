@@ -1,30 +1,24 @@
 import React from 'react'
-import './Contacts.css'
+import './ContactHome.css'
 
 import FontIcon from 'material-ui/FontIcon'
 
-import MyMapComponent from './Maps/Maps'
-
 const iconStyles = {
   top: 6,
-  color: 'white',
-  backgroundColor: '#b24a3b',
-  padding: 5,
-  borderRadius: 18,
   marginRight: 5
 }
 
-const Contacts = (props) => (
-  <section className='section-contacts'>
+const ContactHome = (props) => (
+  <section className='section-contactHome'>
     <div className='app-title-contact'>
-      <div className='app-title-content-contact'>
+      <div className='app-title-content-contact container'>
         <h2 className='title-contact title'>КОНТАКТИ</h2>
         <h5>ОФІС В САМОМУ ЦЕНТРІ МІСТА ЧЕРКАС</h5>
       </div>
     </div>
     <div className='block-section-contact'>
-      <div className='block-info-contact'>
-        <div className='contact-info'>
+      <div className='block-info-contactHome'>
+        <div className='contact-info  container'>
           <div className='wrap'>
             <div>
               <h4>РОЗПОРЯДОК РОБОТИ:</h4>
@@ -51,20 +45,17 @@ const Contacts = (props) => (
             </div>
           </div>
         </div>
-      </div>
-      <div className='block-maps'>
-        <div className='maps'>
-          <MyMapComponent
-            isMarkerShown
-            googleMapURL='https://maps.googleapis.com/maps/api/js?key=AIzaSyCCk2DXA6GfD37wt7EU4pXs40-M8fY9kjI&v=3.exp&libraries=geometry,drawing,places'
-            loadingElement={<div style={{ height: `100%` }} />}
-            containerElement={<div style={{ height: `450px` }} />}
-            mapElement={<div style={{ height: `100%` }} />}
-          />
+        <div className='address-block container hvr-grow'>
+          <div className='address-text'>
+            <FontIcon className='material-icons'>place</FontIcon>
+            <h6>Адвокатське бюро Заруби Світлани</h6>
+            <p>місто Черкаси</p>
+            <p>бул. Шевченка 242/1, оф.108</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 )
 
-export default Contacts
+export default ContactHome

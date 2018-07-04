@@ -21,7 +21,7 @@ function Branch ({match}) {
         </div>
         <div className='info-block-branch container'>
           <div className='img-branch'>
-            <img src={branchLaw.image} />
+            <img src={branchLaw.image} alt={branchLaw.alt} />
           </div>
           <div className='info-branch'>
             <div className='contact-info-wrap wrap-branch'>

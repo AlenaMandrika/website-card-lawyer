@@ -6,7 +6,7 @@ function CardBranchLaw ({ branchLaw }) {
   return (
     <article className='card card-branchLaw'>
       <div className='card-header-branchLaw'>
-        <img src={branchLaw.image} />
+        <img src={branchLaw.image} alt={branchLaw.alt} />
         <div className='card-body card-body-branchLaw'>
           <h3 className='body-title'>{branchLaw.title}</h3>
           <Link to={`/services/${branchLaw.title}`} className='button button-primary btn-branchLaw'>

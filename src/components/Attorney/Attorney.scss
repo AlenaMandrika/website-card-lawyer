@@ -1,0 +1,62 @@
+.info-attorney {
+  display: flex;
+  flex-direction: column;
+}
+.wrap-aboutUs-info {
+  .text-default-attorney {
+    padding: 0 0 10px 0;
+    h2 {
+      margin: 0;
+      color:#535252
+    }
+  }
+}
+.certificate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .wrap-img-certificate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    .block-img-certificate {
+      width: 35%;
+      height: auto;
+      //max-height: 500px;
+      .img-certificate {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .block-img-certificate {
+    width: 35%;
+    height: auto;
+    margin: 20px 0;
+    .img-certificate {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+@media (max-width: 550px) {
+  .certificate .wrap-img-certificate {
+    flex-direction: column;
+    padding: 0;
+    .block-img-certificate {
+      width: 70%;
+      padding: 10px 0;
+      margin: 0;
+    }
+  }
+  .certificate .block-img-certificate {
+    width: 70%;
+  }
+}
+
+
+

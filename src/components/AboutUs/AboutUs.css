@@ -4,11 +4,9 @@
   padding: 50px 0; }
 
 .wrap-aboutUs {
-  padding: 15px 15px; }
-
-.wrap-aboutUs {
   height: 400px;
-  width: 100%; }
+  width: 100%;
+  padding: 15px 15px; }
 
 .block-img {
   display: flex;
@@ -121,9 +119,11 @@ div.img {
   .text-benefits {
     margin-bottom: 2.5rem; }
   .block-benefits .card-wrap .card-list-benefits .card-benefits {
-    margin: 6px 0; } }
+    margin: 6px 1px; } }
 
 @media (max-width: 550px) {
+  .wrap-aboutUs {
+    padding: 15px 0; }
   .aboutUs-block .wrap-aboutUs-info {
     padding: 110px 0 0 0; }
   .text-benefits {

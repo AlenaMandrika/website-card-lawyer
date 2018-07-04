@@ -1,12 +1,12 @@
-import family from '../assets/images/Family.jpg'
-import practice from '../assets/images/practice-real-estate.jpg'
-import bankruptcy from '../assets/images/Bankruptcy.jpg'
-import economicDisputes from '../assets/images/ economicdisputes.png'
-import administrativeDisputes from '../assets/images/administrativnoyePravo.png'
-import civilDisputes from '../assets/images/grazhd-spor.jpg'
-import contract from '../assets/images/contract.jpg'
-import hereditaryDisputes from '../assets/images/hereditaryDisputes.jpg'
-import landDisputes from '../assets/images/landDisputes.jpg'
+import family from '../assets/images/Family.png'
+import practice from '../assets/images/practice-real-estate.png'
+import bankruptcy from '../assets/images/Bankruptcy.png'
+import controvercy from '../assets/images/controvercy.png'
+import adminDisputes from '../assets/images/adminPravo.png'
+import civilDisputes from '../assets/images/grazhd-spor.png'
+import contract from '../assets/images/contract.png'
+import hereditaryDisputes from '../assets/images/hereditaryDisputes.png'
+import landDisputes from '../assets/images/landDisputes.png'
 
 const CardsData = [
   {
@@ -14,7 +14,8 @@ const CardsData = [
     'title': 'Господарські спори',
     'text': 'Господарські спори – спори, що виникають між суб’єктами господарської діяльності при укладенні й ' +
      'виконанні господарських договорів, а також спори про відшкодування збитків.',
-    'image': economicDisputes,
+    'image': controvercy,
+    'alt': 'controvercy',
     'description': 'Hадаємо послуги в сфері захисту інтересів у господарських правовідносинах,' +
     ' юридичну допомогу у наступних напрямках:',
     'paragraph1': '- суперечки щодо укладення, виконання та розірвання господарських\n' +
@@ -33,7 +34,8 @@ const CardsData = [
     'title': 'Адміністративні спори',
     'text': 'Виникають між державними органами з одного боку і юридичними або фізичними особами з іншого боку і' +
     ' регулюються адміністративно правовими нормами.',
-    'image': administrativeDisputes,
+    'image': adminDisputes,
+    'alt': 'administrativeDisputes',
     'description': 'Готові надати юридичну допомогу у наступних напрямках:',
     'paragraph1': '- оскарження рішень про накладення адміністративних стягнень;',
     'paragraph2': '- оскарження рішень про застосування фінансових санкцій;',
@@ -53,6 +55,7 @@ const CardsData = [
     'text': 'Спори, які виникають між учасниками цивільно-правових відносин і регулюються цивільним, трудовим,' +
     ' земельним, сімейним, цивільно-процесуальним галузями права.',
     'image': civilDisputes,
+    'alt': 'civilDisputes',
     'description': 'Надаємо юридичну допомогу на будь-якій стадії цивільного процесу:',
     'paragraph1': '- стягнення боргів по розписці, договору;',
     'paragraph2': '- відшкодування збитку матеріального та / або морального;',
@@ -68,6 +71,7 @@ const CardsData = [
     'text': 'Неврегульовані шляхом безпосередніх переговорів розбіжності між працівником і власником підприємства з' +
     ' приводу застосування норм трудового законодавства.',
     'image': contract,
+    'alt': 'contract',
     'description': 'Hадаємо юридичну допомогу у наступних напрямках:',
     'paragraph1': '- спори про поновлення на колишньому місці роботи;',
     'paragraph2': '- дискусія щодо дати і формулювання причини звільнення;',
@@ -87,6 +91,7 @@ const CardsData = [
     'text': 'Сімейні спори - майнові і немайнові відносини між подружжям, батьками і дітьми, опікунами та' +
       ' підопічними регулюються нормами сімейного законодавства України.',
     'image': family,
+    'alt': 'family',
     'description': 'Надаємо юридичну допомогу у сімейних спорах таких категорій:',
     'paragraph1': '- розірвання шлюбу;',
     'paragraph2': '- стягнення аліментів;',
@@ -100,6 +105,7 @@ const CardsData = [
     'text': 'Спадкові спори є одними із найскладніших у сфері цивільного права. В них стикаються як майновий інтерес' +
       ' на об’єкти спадщини, так й етичний інтерес з боку родичів спадкодавця.',
     'image': hereditaryDisputes,
+    'alt': 'hereditaryDisputes',
     'description': 'Готові надати юридичну допомогу у наступних напрямках:',
     'paragraph1': '- спори про визнання свідоцтва на спадщину недійсним;',
     'paragraph2': '- спори про визнання права власності на спадкове майно;',
@@ -122,6 +128,7 @@ const CardsData = [
     'text': 'Земельні спори — це вид правовідносин, пов’язаних із розв’язанням розбіжностей, які випливають з' +
     ' порушення права власності та права користування земельною ділянкою.',
     'image': landDisputes,
+    'alt': 'landDisputes',
     'description': 'Юридична консультація та практична допомога у наступних напрямках:',
     'paragraph1': '- спори про межі земельної ділянки;',
     'paragraph2': '- земельні спори про визнання права власності на землю (земельну ділянку);',
@@ -143,6 +150,7 @@ const CardsData = [
     'text': "Стягнення заборгованості - діяльність, яка має на меті досудове виконання боржником своїх зобов'язань" +
     ' або ж примус до повернення боргу в судовому порядку.',
     'image': bankruptcy,
+    'alt': 'bankruptcy',
     'description': 'Готові надати комплекс дій по поверненню боргів, який умовно можна\n' +
     "розділити на етапи (зв'язок і діалог з боржником про можливість\n" +
     'добровільного погашення боргу або його реструктуризація, судовий розгляд\n' +
@@ -166,6 +174,7 @@ const CardsData = [
     'text': 'Спори з розділу нерухомості між співвласниками, визнання права власності на нерухомість в суді,' +
     ' оскарження укладених угод з нерухомістю тощо.',
     'image': practice,
+    'alt': 'practice',
     'description': 'Юридична консультація та практична допомога у наступних напрямках:',
     'paragraph1': '- суперечки про поділ нерухомого майна;',
     'paragraph2': '- cпори про визнання права власності на нерухоме майно;',

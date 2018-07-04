@@ -1,74 +1,60 @@
-import React, { Component } from 'react';
-import { Carousel } from 'react-responsive-carousel';
+import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import './Carousel.css'
 
-import ggg from '../../../assets/images/ggg.jpg'
-import hhh from '../../../assets/images/hhh.jpg'
+import Slider from 'react-slick'
 
 class MyCarousel extends Component {
-  constructor(props) {
-    super(props)
-
-    this.photos = [
-      {
-        name : ggg,
-        legend: 'Юридичні консультації без вихідних',
-        title: 'Адвокатське бюро Заруби Світлани',
-        buttonText: 'Більше',
-        alt: ''
-      },
-      {
-        name : ggg,
-        legend: 'Попередня консультація — безкоштовна!',
-        title: 'Завжди дамо цінну пораду',
-        buttonText: 'Більше',
-        alt: ''
-      },
-      {
-        name : ggg,
-        legend: 'Довіряйте вирішення Ваших проблем саме Нам!',
-        title: '"Справедливий світ, в якому цінується повага до людської гідності"',
-        buttonText: 'Більше',
-        alt: ''
-      },
-      {
-        name : hhh,
-        legend: '',
-        title: '',
-        alt: ''
-      }
-    ];
-
-    this.renderHeader = this.renderHeader.bind(this)
-  }
-  renderHeader() {
-    return (
-      <Carousel autoPlay showThumbs={false} showStatus={false} transitionTime={2000}>
-        {this.photos.map(function (photo, index) {
-          console.log(photo)
-          return (
-            <div className='item' key={index}>
-              <img className='img-item' src={photo.name} alt={photo.alt}/>
-              <div className='block-text-carousel'>
-                <p className="legend">{photo.legend}</p>
-                <h2 className="title-item">{photo.title}</h2>
-                <p className="title-text">{photo.text}</p>
-                <NavLink to='/about' className="btn-link">{photo.buttonText}</NavLink>
-              </div>
-            </div>
-          )
-        }) }
-      </Carousel >
-    )
-  }
   render () {
+    let settings = {
+      dots: true,
+      arrows: false,
+      infinite: true,
+      speed: 3000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      fade: true
+    }
+
     return (
-      <section>
-        {this.renderHeader()}
-      </section>
+      <Slider {...settings}>
+        <div className='wrap-carousel'>
+          <div className='block-img-carousel'>
+            <div className='img-item'>
+            </div>
+            <div className='block-text-carousel container'>
+              <p className='legend-carousel'>Юридичні консультації без вихідних</p>
+              <h2 className='title-item-carousel'>Адвокатське бюро Заруби Світлани</h2>
+              <NavLink to='/about' className='btn-link-carousel'>Більше</NavLink>
+            </div>
+          </div>
+        </div>
+        <div className='wrap-carousel'>
+          <div className='block-img-carousel'>
+            <div className='img-item1'>
+            </div>
+            <div className='block-text-carousel container'>
+              <p className='legend-carousel'>Попередня консультація — безкоштовна!</p>
+              <h2 className='title-item-carousel'>Завжди дамо цінну пораду</h2>
+              <NavLink to='/about' className='btn-link-carousel'>Більше</NavLink>
+            </div>
+          </div>
+        </div>
+        <div className='wrap-carousel'>
+          <div className='block-img-carousel'>
+            <div className='img-item2'>
+            </div>
+            <div className='block-text-carousel container'>
+              <p className='legend-carousel'>Довіряйте вирішення Ваших проблем саме Нам!</p>
+              <h2 className='title-item-carousel'>"Справедливий світ, в якому цінується повага до людської гідності"</h2>
+              <NavLink to='/about' className='btn-link-carousel'>Більше</NavLink>
+            </div>
+          </div>
+        </div>
+      </Slider>
     )
   }
 }
-
 export default MyCarousel

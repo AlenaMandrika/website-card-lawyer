@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 
 import Header from '../common/Header/Header'
-import Contacts from '../Home/Contacts/Contacts'
+import Contacts from './ContactApp/ContactApp'
 import Footer from '../common/Footer/Footer'
 
 let Contact = () => {

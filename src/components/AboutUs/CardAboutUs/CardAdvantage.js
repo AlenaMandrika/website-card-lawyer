@@ -6,7 +6,7 @@ function CardAdvantage (props) {
   return (
     <article className='card card-benefits card-branchLaw'>
       <div className='card-header-benefits'>
-        <img src={law} />
+        <img src={law} alt='law' />
       </div>
       <div className='card-body'>
         <h3 className='body-title'>{props.title}</h3>

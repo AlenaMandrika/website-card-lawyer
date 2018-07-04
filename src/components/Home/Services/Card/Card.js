@@ -12,7 +12,7 @@ function Card ({ card }) {
   return (
     <article className='card'>
       <div className='card-header'>
-        <img src={card.image} />
+        <img src={card.image} alt={card.alt} />
       </div>
       <div className='card-body'>
         <h3 className='body-title'>{card.title}</h3>
