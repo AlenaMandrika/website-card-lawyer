@@ -6,7 +6,7 @@ import './AttorneyHome.css'
 class Attorney extends Component {
   render () {
     return (
-      <div className='block-attorney'>
+      <div className='block-attorney font'>
         <div className='container card-wrap'>
           <div className='app-card-list card-list-attorney'>
             <article className='card'>

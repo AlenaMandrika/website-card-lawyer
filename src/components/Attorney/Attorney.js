@@ -12,7 +12,7 @@ function Attorney () {
   return (
     <div>
       <Header />
-      <section>
+      <section className='font'>
         <div className='branchLaw-title'>
           <h2>ПРО МЕНЕ</h2>
         </div>

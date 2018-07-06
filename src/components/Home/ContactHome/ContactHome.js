@@ -9,7 +9,7 @@ const iconStyles = {
 }
 
 const ContactHome = (props) => (
-  <section className='section-contactHome'>
+  <section className='section-contactHome font'>
     <div className='app-title-contact'>
       <div className='app-title-content-contact container'>
         <h2 className='title-contact title'>КОНТАКТИ</h2>

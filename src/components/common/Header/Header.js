@@ -37,7 +37,7 @@ class Header extends Component {
   render () {
     return (
       <div>
-        <section className='section-block'>
+        <section className='section-block font'>
           <div className='header-top'>
             <div className='container header-top-block'>
               <div className='head-nav-left'>

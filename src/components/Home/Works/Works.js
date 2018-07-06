@@ -9,7 +9,7 @@ const iconStyles = {
 }
 
 const Works = () => (
-  <section className='section-works'>
+  <section className='section-works font'>
     <div className='wrap-works'>
       <div className='block-img-works'>
         <div className='img-works'>

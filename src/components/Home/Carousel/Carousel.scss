@@ -1,5 +1,8 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+.wrap-carousel {
+  font-family: 'Spectral', serif, 'Roboto', sans-serif;
+}
 .block-img-carousel {
   display: flex;
   flex-flow: column wrap;

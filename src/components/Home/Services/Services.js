@@ -9,7 +9,7 @@ import { CardsData } from '../../../constants/serviceData'
 class Services extends Component {
   render () {
     return (
-      <section className='services-block'>
+      <section className='services-block font'>
         <div className='container card-wrap'>
           <Title />
           <div className='app-card-list'>

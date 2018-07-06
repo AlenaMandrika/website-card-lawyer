@@ -6,7 +6,7 @@ import icon2 from '../../../assets/images/icon5.png'
 import icon3 from '../../../assets/images/icon7.png'
 
 const About = () => (
-  <section className='about'>
+  <section className='about font'>
     <div className='wrap-about'>
       <div className='block-img'>
         <div className='img'>

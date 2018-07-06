@@ -13,14 +13,14 @@ class MyCarousel extends Component {
       speed: 3000,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 3000,
+      // autoplay: true,
+      // autoplaySpeed: 3000,
       fade: true
     }
 
     return (
       <Slider {...settings}>
-        <div className='wrap-carousel'>
+        <div className='wrap-carousel font'>
           <div className='block-img-carousel'>
             <div className='img-item'>
             </div>
@@ -31,7 +31,7 @@ class MyCarousel extends Component {
             </div>
           </div>
         </div>
-        <div className='wrap-carousel'>
+        <div className='wrap-carousel font'>
           <div className='block-img-carousel'>
             <div className='img-item1'>
             </div>
@@ -42,7 +42,7 @@ class MyCarousel extends Component {
             </div>
           </div>
         </div>
-        <div className='wrap-carousel'>
+        <div className='wrap-carousel font'>
           <div className='block-img-carousel'>
             <div className='img-item2'>
             </div>

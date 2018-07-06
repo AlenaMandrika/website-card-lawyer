@@ -105,7 +105,7 @@ class AboutUs extends Component {
     return (
       <div>
         <Header />
-        <section>
+        <section className='font'>
           <div className='branchLaw-title'>
             <h2>АДВОКАТСЬКЕ БЮРО</h2>
           </div>

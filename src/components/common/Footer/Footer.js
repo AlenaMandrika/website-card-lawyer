@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css'
 
 const Footer = () => (
-  <footer className='section-footer'>
+  <footer className='section-footer font'>
     <div>
       <div className='footer-block'>
         <div className='line-bottom'>

@@ -9,10 +9,10 @@ let Contact = () => {
   return (
     <div>
       <Header />
-      <div className='branchLaw-title'>
+      <div className='branchLaw-title font'>
         <h2>КОНТАКТИ</h2>
       </div>
-      <div className='titleBlock'>
+      <div className='titleBlock font'>
         <Contacts />
       </div>
       <Footer />

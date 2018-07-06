@@ -11,7 +11,7 @@ function BranchLaw () {
   return (
     <div>
       <Header />
-      <section>
+      <section className='font'>
         <div className='branchLaw-title'>
           <h2>НАША ПРАКТИКА</h2>
         </div>
