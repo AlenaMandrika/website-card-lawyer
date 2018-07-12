@@ -15,7 +15,7 @@ function Branch ({match}) {
   return (
     <div>
       <Header />
-      <section className='branch-section'>
+      <section className='branch-section font'>
         <div className='branchLaw-title'>
           <h5 className='branch-title'>{branchLaw.title}</h5>
         </div>
