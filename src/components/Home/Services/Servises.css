@@ -95,7 +95,8 @@
   border: none;
   color: #b24a3b;
   transition: .75s;
-  cursor: pointer; }
+  cursor: pointer;
+  background-color: transparent; }
 
 button.button.button-primary {
   outline: none; }
