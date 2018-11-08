@@ -2,51 +2,52 @@
   display: flex;
   flex-direction: column; }
 
+.aboutUs-block-attorney div.img {
+  background-image: url(../../assets/images/img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; }
+
 .wrap-aboutUs-info .text-default-attorney {
   padding: 0 0 10px 0; }
-
-.wrap-aboutUs-info .text-default-attorney h2 {
-  margin: 0;
-  color: #535252; }
+  .wrap-aboutUs-info .text-default-attorney h2 {
+    margin: 0;
+    color: #535252; }
 
 .certificate {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-
-.certificate .wrap-img-certificate {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  padding: 20px 0; }
-
-.certificate .wrap-img-certificate .block-img-certificate {
-  width: 35%;
-  height: auto; }
-
-.certificate .wrap-img-certificate .block-img-certificate .img-certificate {
-  width: 100%;
-  height: 100%; }
-
-.certificate .block-img-certificate {
-  width: 35%;
-  height: auto;
-  margin: 20px 0; }
-
-.certificate .block-img-certificate .img-certificate {
-  width: 100%;
-  height: 100%; }
+  .certificate .wrap-img-certificate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0; }
+    .certificate .wrap-img-certificate .block-img-certificate {
+      width: 35%;
+      height: auto; }
+      .certificate .wrap-img-certificate .block-img-certificate .img-certificate {
+        width: 100%;
+        height: 100%; }
+  .certificate .block-img-certificate {
+    width: 35%;
+    height: auto;
+    margin: 20px 0; }
+    .certificate .block-img-certificate .img-certificate {
+      width: 100%;
+      height: 100%; }
 
 @media (max-width: 550px) {
   .certificate .wrap-img-certificate {
     flex-direction: column;
     padding: 0; }
-  .certificate .wrap-img-certificate .block-img-certificate {
-    width: 70%;
-    padding: 10px 0;
-    margin: 0; }
+    .certificate .wrap-img-certificate .block-img-certificate {
+      width: 70%;
+      padding: 10px 0;
+      margin: 0; }
   .certificate .block-img-certificate {
     width: 70%; } }

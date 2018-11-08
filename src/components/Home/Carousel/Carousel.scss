@@ -2,6 +2,7 @@
 @import "~slick-carousel/slick/slick-theme.css";
 .wrap-carousel {
   font-family: 'Spectral', serif, 'Roboto', sans-serif;
+  padding-top: 157px;
 }
 .block-img-carousel {
   display: flex;
@@ -19,7 +20,7 @@
     height: 100%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     cursor: pointer;
     .legend-carousel {
       color: #ffffff;
@@ -38,6 +39,7 @@
       color: #ffffff;
       background-color: #000000;
       padding: 0 10px;
+      margin: 0 0 0 10px;
       font-size: 24px;
       border-radius: 5px;
       border: 1px solid #000000;
@@ -58,13 +60,10 @@
   flex-grow:1;
 }
 div.img-item {
-  background-image: url(../../../assets/images/ggg.jpg);
+  background-image: url(../../../assets/images/1.jpg);
 }
 div.img-item1 {
-  background-image: url(../../../assets/images/hhh.jpg);
-}
-div.img-item2 {
-  background-image: url(../../../assets/images/ggg.jpg);
+  background-image: url(../../../assets/images/img.jpg);
 }
 div.img-item,.img-item1,.img-item2 {
   background-position: center center;
@@ -92,6 +91,11 @@ div.img-item,.img-item1,.img-item2 {
     .block-img-carousel {
       height: 100vh;
     }
+  }
+}
+@media (max-width: 480px) {
+  .wrap-carousel {
+    padding-top: 107px;
   }
 }
 @media (max-width: 320px) {

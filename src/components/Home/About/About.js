@@ -9,7 +9,7 @@ const About = () => (
   <section className='about font'>
     <div className='wrap-about'>
       <div className='block-img'>
-        <div className='img'>
+        <div className='img img-home'>
         </div>
       </div>
     </div>

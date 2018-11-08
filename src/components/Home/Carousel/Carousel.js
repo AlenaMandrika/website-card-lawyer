@@ -13,8 +13,8 @@ class MyCarousel extends Component {
       speed: 3000,
       slidesToShow: 1,
       slidesToScroll: 1,
-      // autoplay: true,
-      // autoplaySpeed: 3000,
+      autoplay: true,
+      autoplaySpeed: 3000,
       fade: true
     }
 
@@ -42,17 +42,17 @@ class MyCarousel extends Component {
             </div>
           </div>
         </div>
-        <div className='wrap-carousel font'>
-          <div className='block-img-carousel'>
-            <div className='img-item2'>
-            </div>
-            <div className='block-text-carousel container'>
-              <p className='legend-carousel'>Довіряйте вирішення Ваших проблем саме Нам!</p>
-              <h2 className='title-item-carousel'>"Справедливий світ, в якому цінується повага до людської гідності"</h2>
-              <NavLink to='/about' className='btn-link-carousel'>Більше</NavLink>
-            </div>
-          </div>
-        </div>
+        {/*<div className='wrap-carousel font'>*/}
+          {/*<div className='block-img-carousel'>*/}
+            {/*<div className='img-item2'>*/}
+            {/*</div>*/}
+            {/*<div className='block-text-carousel container'>*/}
+              {/*<p className='legend-carousel'>Довіряйте вирішення Ваших проблем саме Нам!</p>*/}
+              {/*<h2 className='title-item-carousel'>"Справедливий світ, в якому цінується повага до людської гідності"</h2>*/}
+              {/*<NavLink to='/about' className='btn-link-carousel'>Більше</NavLink>*/}
+            {/*</div>*/}
+          {/*</div>*/}
+        {/*</div>*/}
       </Slider>
     )
   }

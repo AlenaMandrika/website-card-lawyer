@@ -2,11 +2,13 @@
   display: flex;
   flex-direction: row;
   padding: 50px 0; }
+  .aboutUs-block .wrap-aboutUs {
+    height: 400px;
+    width: 100%;
+    padding: 15px 15px; }
 
-.wrap-aboutUs {
-  height: 400px;
-  width: 100%;
-  padding: 15px 15px; }
+.slick-slide img {
+  display: inline-block; }
 
 .block-img {
   display: flex;
@@ -21,7 +23,7 @@
   margin: 0; }
 
 div.img {
-  background-image: url(../../assets/images/ggg.jpg);
+  background-image: url(../../assets/images/3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   width: 100%; }
@@ -30,89 +32,105 @@ div.img {
   color: #757575;
   padding: 15px 15px;
   width: 100%; }
-
-.wrap-aboutUs-info .text-default {
-  padding: 15px 30px 10px 30px; }
-
-.wrap-aboutUs-info .libra img {
-  width: 30%;
-  height: auto; }
-
-.wrap-aboutUs-info .info-aboutUs {
-  width: 100%;
-  padding: 10px 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start; }
-
-.wrap-aboutUs-info .info-aboutUs a {
-  color: #ffffff;
-  text-decoration: none;
-  border: 1px solid #b24a3b;
-  background-color: #b24a3b;
-  border-radius: 3px;
-  padding: 2px 5px; }
-
-.wrap-aboutUs-info .info-aboutUs a:hover {
-  border: 1px solid #b24a3b;
-  background-color: inherit;
-  color: #b24a3b;
-  transition: 0.75s; }
-
-.wrap-aboutUs-info .info-aboutUs a:focus {
-  outline: -webkit-focus-ring-color auto 1px;
-  transition: 0.75s; }
-
-.wrap-aboutUs-info .info-aboutUs div.active {
-  color: #b24a3b;
-  padding: 2px 5px; }
-
-.wrap-aboutUs-info p {
-  text-align: justify;
-  font-size: 17px;
-  margin: 10px 0; }
-
-.wrap-aboutUs-info div ul li.item-list {
-  margin: 0 0 10px 0; }
+  .wrap-aboutUs-info .text-default {
+    padding: 15px 30px 10px 30px; }
+  .wrap-aboutUs-info .libra img {
+    width: 30%;
+    height: auto; }
+  .wrap-aboutUs-info .info-aboutUs {
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .wrap-aboutUs-info .info-aboutUs a {
+      color: #b24a3b;
+      text-decoration: none;
+      border-radius: 3px;
+      padding: 0 5px; }
+    .wrap-aboutUs-info .info-aboutUs a:hover {
+      background-color: inherit;
+      color: #b24a3b;
+      transition: 0.75s; }
+    .wrap-aboutUs-info .info-aboutUs a:focus {
+      outline: -webkit-focus-ring-color auto 1px;
+      transition: 0.75s; }
+    .wrap-aboutUs-info .info-aboutUs div.btn-mission {
+      height: 30px;
+      border-radius: 3px;
+      border: 1px solid #b24a3b;
+      display: flex;
+      align-items: center; }
+    .wrap-aboutUs-info .info-aboutUs div.active {
+      height: 30px;
+      border: 1px solid #b24a3b;
+      border-radius: 3px;
+      background-color: #b24a3b;
+      display: flex;
+      align-items: center; }
+      .wrap-aboutUs-info .info-aboutUs div.active a {
+        color: white; }
+  .wrap-aboutUs-info p {
+    text-align: justify;
+    font-size: 17px;
+    margin: 10px 0; }
+  .wrap-aboutUs-info div ul li.item-list {
+    margin: 0 0 10px 0; }
 
 .item-list {
   display: flex;
   flex-direction: row; }
-
-.item-list div {
-  padding: 0 0 0 25px;
-  text-align: justify;
-  font-size: 17px; }
+  .item-list div {
+    padding: 0 0 0 25px;
+    text-align: justify;
+    font-size: 17px; }
 
 .block-benefits {
   color: #000000;
   padding: 50px 0 30px 0;
   background-color: #f1f1f1;
   margin: 0 auto; }
-
-.block-benefits .title-benefits {
-  color: #000000; }
+  .block-benefits .card-wrap .card-list-benefits .slick-slider {
+    padding: 40px 0; }
+  .block-benefits .card-wrap .card-list-benefits .card-benefits {
+    margin: 6px 6px; }
+  .block-benefits .card-wrap .card-list-benefits .commands {
+    background-color: inherit;
+    border: none;
+    margin: 6px 30px; }
+    .block-benefits .card-wrap .card-list-benefits .commands:hover {
+      box-shadow: none; }
+    .block-benefits .card-wrap .card-list-benefits .commands .commands-title {
+      font-size: 20px; }
+    .block-benefits .card-wrap .card-list-benefits .commands .commands-text {
+      font-size: 30px;
+      color: #0c0c1e; }
+  .block-benefits .title-benefits {
+    color: #000000; }
 
 .card-header-benefits {
   padding: 45px 0 20px 0; }
-
-.card-header-benefits span.icon-benefits {
-  font-size: 30px; }
+  .card-header-benefits span.icon-benefits {
+    font-size: 30px; }
+  .card-header-benefits .img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transition: .75s; }
+    .card-header-benefits .img:hover {
+      box-shadow: 0 0 20px 0 #b24a3b; }
 
 .text-benefits {
   margin-bottom: 2.5rem; }
-
-.block-benefits .card-wrap .card-list-benefits .card-benefits {
-  margin: 6px 6px; }
 
 @media (max-width: 769px) {
   .aboutUs-block {
     display: flex;
     flex-direction: column;
     padding: 20px 20px; }
-  .aboutUs-block .wrap-aboutUs-info {
-    padding: 150px 0 0 0; }
+    .aboutUs-block .wrap-aboutUs-info {
+      padding: 150px 0 0 0; }
   .branchLaw-title {
     display: none; }
   .text-benefits {
@@ -131,17 +149,17 @@ div.img {
 @media (max-width: 375px) {
   .aboutUs-block {
     padding: 10px 10px; }
-  .aboutUs-block .wrap-aboutUs {
-    padding: 5px; }
+    .aboutUs-block .wrap-aboutUs {
+      padding: 5px; }
   .wrap-aboutUs-info .text-default {
     padding: 10px; } }
 
 @media (max-width: 320px) {
   .wrap-aboutUs-info {
     padding: 0 15px; }
-  .wrap-aboutUs-info .info-aboutUs {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-  .wrap-aboutUs-info .info-aboutUs .link-margin {
-    margin: 10px 0; } }
+    .wrap-aboutUs-info .info-aboutUs {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .wrap-aboutUs-info .info-aboutUs .link-margin {
+        margin: 10px 0; } }

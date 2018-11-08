@@ -7,6 +7,7 @@ import Footer from '../common/Footer/Footer'
 import certificate1 from '../../assets/images/certificate1.jpg'
 import certificate from '../../assets/images/certificate.jpg'
 import certificate2 from '../../assets/images/certificate2.jpg'
+import certificate3 from '../../assets/images/ScanImage001.jpg'
 
 function Attorney () {
   return (
@@ -16,7 +17,7 @@ function Attorney () {
         <div className='branchLaw-title'>
           <h2>ПРО МЕНЕ</h2>
         </div>
-        <div className='container aboutUs-block'>
+        <div className='container aboutUs-block aboutUs-block-attorney'>
           <div className='wrap-aboutUs-info'>
             <div className='info-attorney'>
               <div className='text-default text-default-attorney'>
@@ -55,8 +56,13 @@ function Attorney () {
               <img className='img-certificate' src={certificate2} alt='certificate2' />
             </div>
           </div>
-          <div className='block-img-certificate'>
-            <img className='img-certificate' src={certificate1} alt='certificate1' />
+          <div className='wrap-img-certificate'>
+            <div className='block-img-certificate'>
+              <img className='img-certificate' src={certificate1} alt='certificate1' />
+            </div>
+            <div className='block-img-certificate'>
+              <img className='img-certificate' src={certificate3} alt='certificate1' />
+            </div>
           </div>
         </div>
       </section>

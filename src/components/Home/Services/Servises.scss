@@ -57,6 +57,13 @@
   &::-webkit-scrollbar {
     display: none;
   }
+  .slick-list {
+    overflow: scroll;
+    height: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
   @media(min-width:768px) {
     overflow-x: scroll;
     white-space: nowrap;
@@ -68,6 +75,7 @@
   .card {
     display: inline-block;
     max-width: 365px;
+    //min-width: 365px;
     width: 100%;
     transition: .75s;
     .card-body {
@@ -78,6 +86,7 @@
     }
     @media(min-width:768px) {
       width: 365px;
+      //width: auto;
     }
   }
   .card:hover {
@@ -86,6 +95,36 @@
   }
   .card:hover .button-primary {
     transform: translate(10px, 0);
+  }
+
+
+  .slick-dots li button:before {
+    color: #b24a3b;
+  }
+  .slick-dots li.slick-active button:before {
+    color: black;
+  }
+  .slick-next {
+    right: 35px;
+    top: 91%;
+    z-index: 55555;
+    color: #b24a3b;
+    &:before {
+      font-size: 50px;
+      color: #b24a3b;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+  .slick-prev {
+    left: 0;
+    top: 91%;
+    z-index: 55555;
+    color: #b24a3b;
+    &:before {
+      font-size: 50px;
+      color: #b24a3b;
+      font-family: "Roboto", sans-serif;
+    }
   }
 }
 .button-primary {
@@ -97,6 +136,6 @@
 }
 button.button.button-primary {
   outline: none;
+  background-color: transparent;
 }
-
 

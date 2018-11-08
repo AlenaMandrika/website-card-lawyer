@@ -1,82 +1,64 @@
 .block-section-contact {
   background-color: #b24a3b;
   height: 100%; }
-
-.block-section-contact .block-info-contactHome {
-  width: 100%;
-  height: auto; }
-
-.block-section-contact .block-info-contactHome .address-block {
-  background-color: #f1f1f1;
-  border-radius: 5px; }
-
-.block-section-contact .block-info-contactHome .address-block .address-text {
-  padding: 20px 0;
-  font-size: 18px; }
-
-.block-section-contact .block-info-contactHome .address-block .address-text p {
-  margin: 0; }
-
-.block-section-contact .block-info-contactHome .address-block .address-text h6 {
-  font-size: 20px; }
-
-.block-section-contact .block-info-contactHome .address-block:hover {
-  color: #b24a3b;
-  transition: 2s; }
-
-.block-section-contact .block-info-contactHome .contact-info {
-  padding: 20px 15px;
-  display: flex;
-  flex-direction: column; }
-
-.block-section-contact .block-info-contactHome .contact-info a {
-  color: #0c0c1e; }
-
-.block-section-contact .block-info-contactHome .contact-info a:hover {
-  color: #f1f1f1; }
-
-.block-section-contact .block-info-contactHome .contact-info .wrap {
-  display: flex;
-  flex-direction: column;
-  text-align: center; }
-
-.block-section-contact .block-info-contactHome .contact-info .wrap div {
-  margin: 15px 0 0 0; }
-
-.block-section-contact .block-info-contactHome .contact-info .wrap div h4 {
-  font-size: 22px;
-  color: #0c0c1e;
-  margin-bottom: 25px;
-  font-weight: 500; }
-
-.block-section-contact .block-info-contactHome .contact-info .wrap div p {
-  color: #0c0c1e;
-  margin-bottom: 0;
-  font-size: 18px; }
-
-.block-section-contact .block-info-contactHome .contact-info .wrap .contact-info-wrap {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  font-size: 18px;
-  color: #b24a3b;
-  font-weight: 600; }
-
-.block-section-contact .block-info-contactHome .contact-info .wrap .contact-info-wrap p {
-  color: #0c0c1e; }
-
-.block-section-contact .block-info-contactHome .contact-info .wrap .contact-info-wrap a {
-  text-decoration: none; }
-
-.block-section-contact .block-info-contactHome .contact-info .wrap .contact-info-wrap .block-tel {
-  display: flex;
-  flex-direction: column; }
-
-.block-section-contact .block-info-contactHome .contact-info .wrap .contact-info-wrap h6 {
-  font-size: 20px;
-  font-weight: 600;
-  color: #0c0c1e; }
+  .block-section-contact .block-info-contactHome {
+    width: 100%;
+    height: auto; }
+    .block-section-contact .block-info-contactHome .address-block {
+      background-color: #f1f1f1;
+      border-radius: 5px; }
+      .block-section-contact .block-info-contactHome .address-block .address-text {
+        padding: 20px 0;
+        font-size: 18px; }
+        .block-section-contact .block-info-contactHome .address-block .address-text p {
+          margin: 0; }
+        .block-section-contact .block-info-contactHome .address-block .address-text h6 {
+          font-size: 20px; }
+    .block-section-contact .block-info-contactHome .address-block:hover {
+      color: #b24a3b;
+      transition: 2s; }
+    .block-section-contact .block-info-contactHome .contact-info {
+      padding: 20px 15px;
+      display: flex;
+      flex-direction: column; }
+      .block-section-contact .block-info-contactHome .contact-info a {
+        color: #0c0c1e; }
+      .block-section-contact .block-info-contactHome .contact-info a:hover {
+        color: #f1f1f1; }
+      .block-section-contact .block-info-contactHome .contact-info .wrap {
+        display: flex;
+        flex-direction: column;
+        text-align: center; }
+        .block-section-contact .block-info-contactHome .contact-info .wrap div {
+          margin: 15px 0 0 0; }
+        .block-section-contact .block-info-contactHome .contact-info .wrap div h4 {
+          font-size: 22px;
+          color: #0c0c1e;
+          margin-bottom: 25px;
+          font-weight: 500; }
+        .block-section-contact .block-info-contactHome .contact-info .wrap div p {
+          color: #0c0c1e;
+          margin-bottom: 0;
+          font-size: 18px; }
+        .block-section-contact .block-info-contactHome .contact-info .wrap .contact-info-wrap {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: flex-start;
+          font-size: 18px;
+          color: #b24a3b;
+          font-weight: 600; }
+          .block-section-contact .block-info-contactHome .contact-info .wrap .contact-info-wrap p {
+            color: #0c0c1e; }
+          .block-section-contact .block-info-contactHome .contact-info .wrap .contact-info-wrap a {
+            text-decoration: none; }
+          .block-section-contact .block-info-contactHome .contact-info .wrap .contact-info-wrap .block-tel {
+            display: flex;
+            flex-direction: column; }
+          .block-section-contact .block-info-contactHome .contact-info .wrap .contact-info-wrap h6 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #0c0c1e; }
 
 .app-title-contact {
   padding: 50px 0; }

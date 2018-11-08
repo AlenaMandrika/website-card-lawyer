@@ -4,20 +4,22 @@ import { Route } from 'react-router'
 import { Link } from 'react-router-dom'
 import './AboutUs.css'
 
+import Slider from 'react-slick'
+
 import FontIcon from 'material-ui/FontIcon'
 
 import Header from '../common/Header/Header'
 import Footer from '../common/Footer/Footer'
 import CardAdvantage from './CardAboutUs/CardAdvantage'
+import CommandsAbout from './Commands/CommandsAbout'
 
 import { CardsBenefits } from '../../constants/benefitData'
-
+import { commands } from '../../constants/commands'
 import libra from '../../assets/images/flip-wooden.png'
 
 const iconStyles = {
   color: '#b24a3b'
 }
-
 let Mission = () => {
   return (
     <div>
@@ -79,14 +81,13 @@ let Vision = () => {
     </div>
   )
 }
-
 const OldSchoolMenuLink = ({ label, to, activeOnlyWhenExact }) => (
-  <Route
+<Route
     path={to}
     exact={activeOnlyWhenExact}
     children={({ match }) => (
-      <div className={match ? 'active' : ''}>
-        {match ? '>> ' : ''}
+      <div className={match ? 'active' : 'btn-mission'}>
+        {match ? '' : ''}
         <Link to={to}>{label}</Link>
       </div>
     )}
@@ -98,10 +99,63 @@ class AboutUs extends Component {
     super(props)
     this.state = {
       url: props.match.url,
-      cards: CardsBenefits
+      cards: CardsBenefits,
+      commands: commands
     }
   }
   render () {
+
+    let settings = {
+      dots: false,
+      arrows: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      speed: 3000,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            speed: 2000,
+            arrows: true,
+            slidesToShow: 2.5,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 998,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 775,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 750,
+          settings: {
+            speed: 500,
+            slidesToShow: 1.5,
+            slidesToScroll: 1.5
+          }
+        },
+        {
+          breakpoint: 580,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false
+          }
+        }
+      ]
+    }
+
     return (
       <div>
         <Header />
@@ -116,12 +170,14 @@ class AboutUs extends Component {
                   <OldSchoolMenuLink activeOnlyWhenExact={true}
                                      to={this.state.url + '/mission'}
                                      className='link'
+                                     activeClassName="active"
                                      label='НАША МІСІЯ'>
                   </OldSchoolMenuLink>
                 </div>
                 <div className='link-margin'>
                   <OldSchoolMenuLink to={this.state.url + '/vision'}
                                      className='link'
+                                     activeClassName="active"
                                      label='НАШЕ БАЧЕННЯ'>
                   </OldSchoolMenuLink>
                 </div>
@@ -156,15 +212,31 @@ class AboutUs extends Component {
               </div>
             </div>
           </div>
+
+          <div className='block-benefits'>
+            <div className='container card-wrap'>
+              <div className='title-benefits'>
+                <h3 className='title text-benefits'>НАША КОМАНДА</h3>
+              </div>
+              <div className='app-card-list card-list-benefits'>
+                {this.state.commands.map((card, index) =>
+                  <CommandsAbout key={index} {...card} />
+                )}
+              </div>
+            </div>
+          </div>
+
           <div className='block-benefits'>
             <div className='container card-wrap'>
               <div className='title-benefits'>
                 <h3 className='title text-benefits'>ПЕРЕВАГИ В НАШІЙ СПІВПРАЦІ</h3>
               </div>
               <div className='app-card-list card-list-benefits'>
-                {this.state.cards.map((card, index) =>
-                  <CardAdvantage key={index} {...card} />
-                )}
+                <Slider className='slider' {...settings}>
+                  {this.state.cards.map((card, index) =>
+                    <CardAdvantage key={index} {...card} />
+                  )}
+                </Slider>
               </div>
             </div>
           </div>

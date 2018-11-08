@@ -2,10 +2,9 @@
   padding: 50px;
   width: 100%;
   cursor: pointer; }
-
-.text-ticker h4 {
-  margin: 0;
-  color: #0c0c1e; }
+  .text-ticker h4 {
+    margin: 0;
+    color: #0c0c1e; }
 
 .effect {
   display: inline-block;
