@@ -23,18 +23,26 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
 
 .block-attorney .card-list-attorney .card-attorney .attorney-info {
-  width: 100%;
+  width: 50%;
   height: 100%; }
 
 .block-attorney .card-list-attorney .card-attorney .attorney-info .quote {
   font-size: 18px;
   font-weight: 600; }
 
-div.img {
-  background-image: url(../../../assets/images/IMG-516b36b6ec3481adaca27ee7dd47378f-V.jpg);
+.block-attorney .card-list-attorney .card-attorney .wrap-aboutUs {
+  width: 50%; }
+
+.block-attorney .card-list-attorney .card-attorney .wrap-aboutUs .block-img {
+  min-height: 500px;
+  padding: 0 0 0 30px; }
+
+.block-attorney .card-list-attorney .card-attorney .wrap-aboutUs .block-img div.img {
+  background-image: url(../../../assets/images/DSC_6672.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,3 +56,11 @@ div.img {
 @media (max-width: 760px) {
   .block-attorney .card-list-attorney .card-attorney {
     flex-direction: column; } }
+
+@media (max-width: 480px) {
+  .block-attorney .card-list-attorney .card-attorney .attorney-info {
+    width: 100%; }
+  .block-attorney .card-list-attorney .card-attorney .wrap-aboutUs {
+    width: 100%; }
+  .block-attorney .card-list-attorney .card-attorney .wrap-aboutUs .block-img {
+    padding: 0; } }

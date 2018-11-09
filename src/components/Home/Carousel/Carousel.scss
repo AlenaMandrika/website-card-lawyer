@@ -96,6 +96,19 @@ div.img-item,.img-item1,.img-item2 {
 @media (max-width: 480px) {
   .wrap-carousel {
     padding-top: 107px;
+    .block-img-carousel {
+      .block-text-carousel {
+        height: 40%;
+        top: 8%;
+        p {
+          margin-bottom: 0;
+        }
+        p, h2 {
+          text-align: left;
+          font-size: 20px;
+        }
+      }
+    }
   }
 }
 @media (max-width: 320px) {

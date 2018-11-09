@@ -21,25 +21,34 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+      width: 100%;
       .attorney-info {
-        width: 100%;
+        width: 50%;
         height: 100%;
         .quote {
           font-size: 18px;
           font-weight: 600;
         }
       }
+      .wrap-aboutUs {
+        width: 50%;
+        .block-img {
+          min-height: 500px;
+          padding: 0 0 0 30px;
+          div.img {
+            background-image: url(../../../assets/images/DSC_6672.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
     }
   }
 }
-div.img {
-  background-image: url(../../../assets/images/IMG-516b36b6ec3481adaca27ee7dd47378f-V.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: auto;
-}
+
 @media (max-width: 850px) {
   .block-attorney .card-list-attorney .card-attorney .attorney-info .quote {
     font-size: 16px;
@@ -48,6 +57,19 @@ div.img {
 @media (max-width: 760px) {
   .block-attorney .card-list-attorney .card-attorney {
     flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  .block-attorney .card-list-attorney .card-attorney {
+    .attorney-info {
+      width: 100%;
+    }
+    .wrap-aboutUs {
+      width: 100%;
+      .block-img {
+        padding: 0;
+      }
+    }
   }
 }
 

@@ -55,6 +55,12 @@
       height: 51px;
       width: 52px; }
 
+@media (max-width: 1920px) {
+  .wrap-about {
+    min-height: 750px; }
+  .block-info {
+    min-height: 750px; } }
+
 @media (max-width: 1024px) {
   .block-info {
     padding: 60px 25px; }
