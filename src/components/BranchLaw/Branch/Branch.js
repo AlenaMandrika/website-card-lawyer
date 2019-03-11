@@ -5,11 +5,12 @@ import Footer from '../../common/Footer/Footer'
 import FontIcon from 'material-ui/FontIcon'
 import { CardsData } from '../../../constants/serviceData'
 
+import info from '../../../assets/images/info.pdf'
+
 const iconStyles = {
   top: 6,
   marginRight: 5
 }
-
 function Branch ({match}) {
   const branchLaw = CardsData.find(branchLaw => branchLaw.title === match.params.branch)
   return (
@@ -28,13 +29,13 @@ function Branch ({match}) {
               <div className='block-tel tel-branch'>
                 <h6><FontIcon className='material-icons' style={iconStyles}>phone</FontIcon>
                   Телефон</h6>
-                <a href='tel:067-144-53-31'>067-144-53-31</a>
-                <a href='tel:063-157-44-85'>063-157-44-85</a>
+                <a href='tel:0630574485'>063-057-44-85</a>
+                <a href='tel:0993278727'>099-327-87-27</a>
               </div>
               <div className='icon-contact email-branch'>
                 <h6><FontIcon className='material-icons' style={iconStyles}>mail_outline</FontIcon>
                   Електронна пошта</h6>
-                <a href='mailto:sozaruba@gmail.com'>sozaruba@gmail.com</a>
+                <a href='mailto:ab.s.zaruba@gmail.com'>ab.s.zaruba@gmail.com</a>
               </div>
             </div>
           </div>
@@ -74,6 +75,7 @@ function Branch ({match}) {
             </li>
           </ul>
         </div>
+        <a className='hover-link' href={info} target='blank'>{branchLaw.textBtn}</a>
       </section>
       <Footer />
     </div>

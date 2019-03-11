@@ -26,7 +26,7 @@ class MyCarousel extends Component {
             </div>
             <div className='block-text-carousel container'>
               <p className='legend-carousel'>Юридичні консультації без вихідних</p>
-              <h2 className='title-item-carousel'>Адвокатське бюро Заруби Світлани</h2>
+              <h2 className='title-item-carousel'>Адвокатське бюро Світлани Заруби</h2>
               <NavLink to='/about' className='btn-link-carousel'>Більше</NavLink>
             </div>
           </div>
@@ -36,23 +36,12 @@ class MyCarousel extends Component {
             <div className='img-item1'>
             </div>
             <div className='block-text-carousel container'>
-              <p className='legend-carousel'>Попередня консультація — безкоштовна!</p>
-              <h2 className='title-item-carousel'>Завжди дамо цінну пораду</h2>
+              <p className='legend-carousel'>Завжди дамо цінну пораду!</p>
+              <h2 className='title-item-carousel'>Адвокатське бюро Світлани Заруби</h2>
               <NavLink to='/about' className='btn-link-carousel'>Більше</NavLink>
             </div>
           </div>
         </div>
-        {/*<div className='wrap-carousel font'>*/}
-          {/*<div className='block-img-carousel'>*/}
-            {/*<div className='img-item2'>*/}
-            {/*</div>*/}
-            {/*<div className='block-text-carousel container'>*/}
-              {/*<p className='legend-carousel'>Довіряйте вирішення Ваших проблем саме Нам!</p>*/}
-              {/*<h2 className='title-item-carousel'>"Справедливий світ, в якому цінується повага до людської гідності"</h2>*/}
-              {/*<NavLink to='/about' className='btn-link-carousel'>Більше</NavLink>*/}
-            {/*</div>*/}
-          {/*</div>*/}
-        {/*</div>*/}
       </Slider>
     )
   }

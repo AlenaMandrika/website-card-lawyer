@@ -29,7 +29,7 @@ const MyMapComponent = compose(
       {props.isOpen && <InfoWindow onCloseClick={props.onToggleOpen}>
         <div>
           <FontIcon className='material-icons' style={iconStyles}>place</FontIcon>
-          <h6>Адвокатське бюро Заруби Світлани</h6>
+          <h6>Адвокатське бюро Світлани Заруби</h6>
           <p style={{marginBottom: 0}}>місто Черкаси</p>
           <p style={{marginBottom: 0}}>бул. Шевченка 242/1, оф.108</p>
         </div>

@@ -43,20 +43,20 @@ class Header extends Component {
               <div className='head-nav-left'>
                 <ul className='nav-left'>
                   <li>
-                    <a href='mailto:sozaruba@gmail.com'>
+                    <a href='mailto:ab.s.zaruba@gmail.com'>
                       <FontIcon className='material-icons icon-header' style={iconStyles}>mail_outline</FontIcon>
-                      sozaruba@gmail.com
+                      ab.s.zaruba@gmail.com
                     </a>
                   </li>
                   <li>
-                    <a href='tel:067-144-53-31'>
+                    <a href='tel:0630574485'>
                       <FontIcon className='material-icons' style={iconStyles}>phone</FontIcon>
-                      067-144-53-31
+                      063-057-44-85
                     </a>
                   </li>
                   <li>
-                    <a href='tel:063-157-44-85'>
-                      063-157-44-85
+                    <a href='tel:0993278727'>
+                      099-327-87-27
                     </a>
                   </li>
                 </ul>
@@ -77,7 +77,7 @@ class Header extends Component {
                     <img src={logo} alt='logo' />
                   </div>
                   <h2>БЮРО</h2>
-                  <p className='logo-title'>ЗАРУБИ СВІТЛАНИ</p>
+                  <p className='logo-title'>СВІТЛАНИ ЗАРУБИ</p>
                 </Link>
               </div>
               <div className='menu-btn nav nav-pills flex-row navWide'>

@@ -148,6 +148,22 @@ div.img {
 .text-benefits {
   margin-bottom: 2.5rem; }
 
+.block-commands {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
+
+.commands {
+  max-width: 300px;
+  width: 100%; }
+
+.commands-photo .img {
+  width: 100%;
+  height: auto;
+  display: block; }
+
 @media (max-width: 769px) {
   .aboutUs-block {
     display: flex;

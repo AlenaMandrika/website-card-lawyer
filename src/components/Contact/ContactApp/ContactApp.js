@@ -36,13 +36,13 @@ const Contacts = (props) => (
               <div className='block-tel'>
                 <h6><FontIcon className='material-icons' style={iconStyles}>phone</FontIcon>
                   Телефон</h6>
-                <a href='tel:067-144-53-31'>067-144-53-31</a>
-                <a href='tel:063-157-44-85'>063-157-44-85</a>
+                <a href='tel:0630574485'>063-057-44-85</a>
+                <a href='tel:0993278727'>099-327-87-27</a>
               </div>
               <div className='icon-contact'>
                 <h6><FontIcon className='material-icons' style={iconStyles}>mail_outline</FontIcon>
                   Електронна пошта</h6>
-                <a href='mailto:sozaruba@gmail.com'>sozaruba@gmail.com</a>
+                <a href='mailto:ab.s.zaruba@gmail.com'>ab.s.zaruba@gmail.com</a>
               </div>
               <div>
                 <h6><FontIcon className='material-icons' style={iconStyles}>schedule</FontIcon>Години роботи</h6>

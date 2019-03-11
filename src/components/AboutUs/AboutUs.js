@@ -218,7 +218,7 @@ class AboutUs extends Component {
               <div className='title-benefits'>
                 <h3 className='title text-benefits'>НАША КОМАНДА</h3>
               </div>
-              <div className='app-card-list card-list-benefits'>
+              <div className='app-card-list card-list-benefits block-commands'>
                 {this.state.commands.map((card, index) =>
                   <CommandsAbout key={index} {...card} />
                 )}
