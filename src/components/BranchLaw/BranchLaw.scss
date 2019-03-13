@@ -104,6 +104,22 @@
     width: 100%;
   }
 }
+
+.hover-link {
+  background-color: #b24a3b;
+  padding: 5px 15px;
+  position: relative;
+  top: -40px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  &:hover {
+    background-color: white;
+    border: 1px solid #b24a3b;
+    color: #b24a3b;
+    text-decoration: none;
+  }
+}
+
 @media (max-width: 768px) {
   .branch-section {
     padding-top: 150px;
